@@ -1,0 +1,41 @@
+{
+  "name": "datacubed",
+  "version": "1.0.0",
+  "description": "simple react-redux based game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon server",
+    "start-dev": "webpack -w & nodemon server"
+  },
+  "author": "Sam Morrow",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-livereload-plugin": "^2.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sudoku": "^0.0.2"
+  }
+}

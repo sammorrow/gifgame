@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  padding: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  height: 9vh;
+  width: 9vw;
+  box-sizing: border-box;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.busy .cell {
+  cursor: default;
+}
+
+section.choose .cell:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
+section.intro input {
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+section.go button {
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  border: 0;
+  background-color: green;
+  transition: 0.2s;
+}
+
+section.go button p {
+  padding: 10px;
+  margin: 0;
+}
+
+section.go button:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+h1, h3, h4, button, input {
+  font-family: calluna, serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 48 px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+h4, button, input {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.loader {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+
+.inputForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lobby {
+  display: flex;
+  justify-content: space-around;
+}
+
+.setup {
+  flex: 100;
+}
+
+.rules {
+  flex: 33;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h4 {
+  margin: 0 30px 0 0;
+}
+
+.reset {
+  margin-left: auto;
+  border: 0;
+  background-color: orangered;
+  color: white;
+  transition: 0.2s;
+}
+
+.reset:hover {
+  background-color: darkred;
+  opacity: 0.9;
+}
+
+.reset p {
+  margin: 5px;
+}
